@@ -1,4 +1,4 @@
-import javax.swing.*;
+import javax.swing.JFrame;
 
 public class GameScreen {
     public void runGameScreen() {
@@ -13,5 +13,7 @@ public class GameScreen {
 
         window.setLocationRelativeTo(null);
         window.setVisible(true);
+
+        gamePanel.startGameThread();
     }
 }
